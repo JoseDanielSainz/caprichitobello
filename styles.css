@@ -83,7 +83,7 @@ a {
 }
 
 #navbar li {
-  font-size: 11px;
+  font-size: 14px;
   margin: 0px 14px 14px 14px;
 }
 
@@ -212,10 +212,10 @@ img.w-logo {
 
 .btn {
   background: none;
-  font-size: 12px;
+  font-size: 16px;
   color: #F24E2B;
   border: 1px solid #F24E2B;
-  padding: 0.2rem 2rem;
+  padding: 0.3rem 2rem;
   border-radius: 5px;
   width: 30%;
   cursor: pointer;
