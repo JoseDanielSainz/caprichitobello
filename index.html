@@ -113,15 +113,15 @@
     <div class="section" id="section-3">
       <div class="form">
           <h1 class="section-title">Contáctanos</h1>
-          <form id="c-form">
-            <label for="fullname">Nombre:</label><br>
-            <input type="text" id="fullname" name="fullname"><br><br>
+          <form name="contacto" method="POST" data-netlify="true">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
             <label for="correo">Correo:</label><br>
-            <input type="email" id="coreo" name="correo"><br><br>
+            <input type="email" id="correo" name="correo"><br><br>
             <label for="numero">Celular:</label><br>
             <input type="text" id="numero" name="numero"><br><br>
-            <label for="mensaje">Tipo de mensaje:</label><br>
-            <select name="mensaje" id="mensaje"><br><br>
+            <label for="tipo-mensaje">Tipo de mensaje:</label><br>
+            <select name="tipo-mensaje" id="tipo-mensaje"><br><br>
               <option value="comentario">Comentario</option>
               <option value="pregunta">Pregunta</option>
               <option value="queja">Queja</option>
@@ -130,8 +130,8 @@
             </select><br><br>
             <label for="mensaje">Mensaje:</label><br>
             <input type="text" id="mensaje" name="mensaje"><br><br>
+            <button type="submit" form="contacto" value="Enviar" class="btn">Enviar</button>
           </form>
-          <button type="submit" form="c-form" value="Enviar" class="btn">Enviar</button>
         </div>
         <img src="img/pizza-moto.JPG" alt="pizza-moto">
     </div>
