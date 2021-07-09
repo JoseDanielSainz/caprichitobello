@@ -18,6 +18,9 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* Global */
 
 a {
@@ -65,9 +68,10 @@ a {
   flex-direction: column;
   height: 110px;
   width: 100%;
-  box-shadow: 0 10px 25px 10px rgba(200, 200, 200, 0.05);
+  box-shadow: 0 10px 25px 10px rgba(200, 200, 200, 0.1);
   position: fixed;
   z-index: 100;
+  margin-bottom: 2rem;
 }
 
 #navbar img {
@@ -139,6 +143,7 @@ img.w-logo {
   align-items: center;
   position: relative;
   margin: auto;
+  padding-top: 9rem;
   top: 200px;
   width: 85%;
   margin-bottom: 5rem;
@@ -229,7 +234,7 @@ img.w-logo {
 
 /* Galeria grid */
 
-.galeria {
+#galeria {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -238,7 +243,7 @@ img.w-logo {
   margin: auto;
 }
 
-.galeria h1 {
+#galeria h1 {
   text-align: center;
 }
 
