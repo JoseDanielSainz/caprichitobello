@@ -9,7 +9,8 @@
   <title>Caprichito Bello | Pizzas & Tapas</title>
 </head>
 <body>
-  <div class="container">
+
+
     <div id="navbar">
       <a href="index.html"><img src="img/caprichito_black_logo.png" alt=""></a>
       <ul>
@@ -17,8 +18,8 @@
         <li><a href="#section-1">Nosotros</a></li>
         <li><a href="#">Menú</a></li>
         <li><a href="#section-2">Servicios</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#section-3">Contáctanos</a></li>
+        <li><a href="#section-3">Galería</a></li>
+        <li><a href="#section-4">Contáctanos</a></li>
       </ul>
     </div>
     <div id="hero">
@@ -27,8 +28,12 @@
       <div class="circle"></div>
       <i class="fas fa-chevron-down"></i>
     </div>
+
+    <!-- Section 1: Nosotros -->
+
     <div class="section" id="section-1">
       <img src="img/caprichito-pizza.jpg" alt="pizza">
+      
       <div class="text-block">
         <h1 class="section-title">
           Cumplimos tus caprichos
@@ -42,6 +47,8 @@
         <a href="#" class="orange-link">Conoce el menú →</a>
       </div>
     </div>
+
+    <!-- Section 2: Servicios -->
 
     <div class="section" id="section-2">
       <div class="text-block">
@@ -64,11 +71,14 @@
           <li>Coffe break</li>
           <li>Paquetes a la medida</li>
         </ul><br>
-        <a href="https://api.whatsapp.com/send?phone=5216674810070&text=Hola,%20me%20interesa%20informaci%C3%B3n%20sobre%20los%20paquetes%20de%20eventos%20que%20manejan." target="_blank" class="orange-link">Pide más información por <span class="span-b">WhatsApp</span> <span class="span-i">(667) 481 0070</span></a><br>
+        <a href="https://api.whatsapp.com/send?phone=5216674810070&text=Hola,%20me%20interesa%20informaci%C3%B3n%20sobre%20los%20paquetes%20de%20eventos%20que%20manejan." target="_blank" class="orange-link">Pide más información por <span class="span-b">WhatsApp</span> <br><span class="span-i">(667) 481 0070</span></a><br>
       </div>
       <img src="img/caprichito-terraza.jpeg" alt="terraza">
     </div>
-    <div id="galeria" class="section">
+
+    <!-- Section 3: Galeria de fotos -->
+
+    <div id="section-3" class="section">
       <h1 class="section-title">Galería de fotos</h1>
       <div class="grid-fotos">
         <div class="img-grid-div">
@@ -107,30 +117,28 @@
         <div class="img-grid-div">
           <a href="https://www.instagram.com/p/CQjdo6rHjTm/" target="_blank"><img src="img/pic-grid/grid-12.png" alt="" class="grid-img"></a>
         </div>
-        
       </div>
     </div>
-    <div class="section" id="section-3">
-      <div class="form">
+
+    <!-- Section 4: Form -->
+
+    <div class="section" id="section-4">
+      <div class="text-block">
         <h1 class="section-title">Contáctanos</h1>
         <form name="contacto" method="POST" data-netlify="true">
-          <p>
+          
             <label for="nombre">Nombre: 
               <br><input type="text" id="nombre" name="nombre"><br><br>
             </label>
-            
-          </p>
-          <p>
+          
             <label for="correo">Correo:
               <br><input type="email" id="correo" name="correo"><br><br>
             </label>
-          </p>
-          <p>
+
             <label for="numero">Celular:
               <br><input type="text" id="numero" name="numero"><br><br>
             </label>
-          </p>
-          <p>
+
             <label for="tipo-mensaje">Tipo de mensaje: 
               <br><select name="tipo-mensaje" id="tipo-mensaje">
                 <option value="comentario">Comentario</option>
@@ -140,19 +148,21 @@
                 <option value="otro">Otro</option>
               </select><br><br>
             </label>
-          </p>
-          <p>
+ 
             <label for="mensaje">Mensaje:
-              <br><input type="text" id="mensaje" name="mensaje"><br><br>
+              <br><textarea name="mensaje" id="mensaje" cols="60" rows="4" form="contacto"></textarea><br><br>
             </label>
-          </p>
-          <p>
+
             <button type="submit" class="btn">Enviar</button>
-          </p>
+ 
         </form>
       </div>
+
       <img src="img/pizza-moto.JPG" alt="pizza-moto">
     </div>
+
+    <!-- Footer -->
+
     <footer>
       <div class="footer-content">
         <div class="info-block">
@@ -182,6 +192,5 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.425423273469!2d-107.39420808490823!3d24.780882084091484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd0ce1b673059%3A0x7316ed4c0b5dbfb5!2sCaprichito%20Montebello!5e0!3m2!1sen!2smx!4v1625610906133!5m2!1sen!2smx" width="505" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div> -->
     </footer>
-  </div>
 </body>
 </html>
