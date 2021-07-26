@@ -345,6 +345,11 @@ footer {
 
 @media only screen and (max-width: 540px) {
 
+  body {
+    max-width: 540px;
+    overflow-x: hidden;
+   }
+
   .orange-link {
     font-size: 16px;
   }
