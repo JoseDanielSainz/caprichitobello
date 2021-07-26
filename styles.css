@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   overflow-x: hidden ;
+  max-width: 100%;
 }
 
 html {
@@ -345,13 +346,18 @@ footer {
 
 @media only screen and (max-width: 540px) {
 
-  body {
-    max-width: 100%;
+  .container {
     overflow-x: hidden;
-   }
+    width: 100%;
+  }
 
   .orange-link {
     font-size: 16px;
+  }
+
+  .section {
+    padding: 0;
+    margin: 3rem auto;
   }
 
   .section-title {
@@ -411,8 +417,6 @@ footer {
     font-weight: 600;
   }
 
-  
-
   #section-1 img, #section-2 img {
     width: 100vw;
     margin: 2rem 0 0 0;
@@ -453,6 +457,6 @@ footer {
   /* Footer */
 
   footer {
-    padding: 5rem;
+    padding: 4rem;
   }
 }
