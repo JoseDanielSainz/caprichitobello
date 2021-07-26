@@ -18,6 +18,7 @@ body {
   font-family: 'Raleway', sans-serif;
   display: flex;
   justify-content: center;
+  overflow-x: hidden ;
 }
 
 html {
@@ -28,7 +29,7 @@ html {
 
 .container {
   max-width: 1440px;
-  overflow-x: hidden ;
+
 }
 
 a {
@@ -301,10 +302,6 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   /* Hero section */
 
   img.hero {
