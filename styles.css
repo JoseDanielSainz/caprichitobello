@@ -346,7 +346,7 @@ footer {
 @media only screen and (max-width: 540px) {
 
   body {
-    max-width: 540px;
+    max-width: 100%;
     overflow-x: hidden;
    }
 
