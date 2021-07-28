@@ -152,7 +152,7 @@ img.w-logo {
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 8rem;
   top: 90px;
   width: 85%;
@@ -165,7 +165,7 @@ img.w-logo {
 }
 
 .text-block {
-  margin: 1rem 2rem;
+  margin: 1 2rem;
   text-align: justify;
 }
 
@@ -183,8 +183,6 @@ img.w-logo {
   height: auto;
   box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.4);
 }
-
-
 
 /* Section 3: Galeria de fotos */
 
@@ -207,7 +205,6 @@ img.w-logo {
   width: 85%;
   padding: 0;
 }
-
 
 .grid-fotos img {
   width: 100%;
@@ -363,7 +360,7 @@ footer {
 
   .section {
     flex-direction: column;
-    padding: 2rem 3rem;
+    padding: 6rem 3rem;
     width: 90%;
   }
 
@@ -396,7 +393,7 @@ footer {
   }
 } 
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
 
   .container {
     overflow-x: hidden;
@@ -410,6 +407,7 @@ footer {
   .section {
     padding: 0;
     margin: 3rem auto;
+
   }
 
   .section-title {
