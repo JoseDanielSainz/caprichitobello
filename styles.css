@@ -335,9 +335,11 @@ footer {
   padding-top: 5rem;
 }
 .carousel__image img {
-  width: 100%;
+  width: 95%;
   box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.2)
 }
+
+
 
 #p-2 { margin-bottom: 4rem; }
 
