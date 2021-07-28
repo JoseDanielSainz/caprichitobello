@@ -28,10 +28,9 @@ html {
 
 /* Global */
 
-.container {
+/* .container {
   max-width: 1440px;
-
-}
+} */
 
 a {
   text-decoration: none;
@@ -86,8 +85,6 @@ a {
   flex-direction: row;
 }
 
-
-
 .nav-container img {
   width: 110px;
   position: relative;
@@ -115,6 +112,7 @@ a {
 img.hero {
   display: block;
   position: relative;
+  object-fit: cover;
   top: 80px;
   width: 85%;
   height: 690px;
@@ -301,6 +299,48 @@ footer {
   justify-content: center;
 }
 
+/* Menu */
+
+#menu {
+  width: 100vw;
+}
+
+#menu .nav-container {
+  top: 0;
+  left: 0;
+}
+
+.menu-sidebar {
+  margin: 7rem 5rem;
+  position: fixed;
+  z-index: 4;
+}
+
+.menu-sidebar ul li {
+  list-style: none;
+  margin: 1rem;
+  font-style: italic;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 5rem; */
+  margin-top: 1rem;
+}
+
+.carousel__image {
+  padding-left: 19rem;
+  list-style: none;
+  padding-top: 5rem;
+}
+.carousel__image img {
+  width: 100%;
+  box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.2)
+}
+
+#p-2 { margin-bottom: 4rem; }
+
 @media only screen and (max-width: 1024px) {
 
   /* Hero section */
@@ -341,6 +381,16 @@ footer {
 
   #section-4 img {
     display: none;
+  }
+
+  /* Menu */
+
+  .menu-sidebar {
+    margin-left: 4rem;
+  }
+
+  .carousel__image {
+    width: 90%;
   }
 } 
 
@@ -459,4 +509,17 @@ footer {
   footer {
     padding: 4rem;
   }
+
+  /* Menu */
+
+  .menu-sidebar {
+    display: none;
+  }
+
+  .carousel__image {
+    padding: 7rem 0 0 0;
+    margin-left: 3rem;
+    width: 85%;
+  }
 }
+
